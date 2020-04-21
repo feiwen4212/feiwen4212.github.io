@@ -10,8 +10,8 @@ title: Shuo
 email: shuohuang4212@gmail.com
 description: Never too late
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://feiwen123.github.io" # the base hostname & protocol for your site
-github_username:  feiwen123
+url: "http://feiwen4212.github.io" # the base hostname & protocol for your site
+github_username:  feiwen4212
 paginate: 4
 theme-dark: false #Set to true to change to dark website theme
 
