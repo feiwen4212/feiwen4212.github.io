@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "FM算法学习笔记"
-date:   2018-03-25 14:07:10 +0530
+title:  "强化学习关键词"
+date:   2018-10-01 17:07:10 +0530
 categories: notes
 ---
 <html>
 <body>
-    <h2 id="%e5%bc%ba%e5%8c%96%e5%ad%a6%e4%b9%a0%e5%9f%ba%e7%a1%80%e6%a6%82%e5%bf%b5"><strong>强化学习基础概念</strong></h2>
+    <h2 id="%e5%bc%ba%e5%8c%96%e5%ad%a6%e4%b9%a0%e5%9f%ba%e7%a1%80%e6%a6%82%e5%bf%b5"><strong>强化学习关键词</strong></h2>
 <p>强化学习是agent和enviroment相互交互反馈的过程中的学习策略。于强化学习相似的两类学习方法监督学习和非监督学习，前者有专家事先打标目标位最优化标签匹配的目标函数，后者是在没有打标的数据中挖掘隐藏结构的学习策略。从这个角度看强化学习似乎更加类似非监督学习，因为强化学习是也是一类没有预先标签的学习方法，但强化学习的学习策略是优化目标函数儿非挖掘数据隐藏结构，从这来看强化学习于监督学习存在很多类同。</p>
 <p><img src="https://lilianweng.github.io/lil-log/assets/images/agent_environment_MDP.png" alt="image">
 Fig 1：MDP中中enviroment和aget的交互</p>
