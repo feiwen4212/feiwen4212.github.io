@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "强化学习关键词"
-date:   2018-10-01 17:07:10 +0530
+title:  "蒙特卡洛学习"
+date:   2018-10-26 20:11:32 +0010
 categories: notes
 ---
 
