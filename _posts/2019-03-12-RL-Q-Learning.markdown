@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Q-learning初窥"
-date:   2018-03-12 13:00:22 +0500
+date:   2019-03-12 13:00:22 +0500
 categories: notes
 ---
 
