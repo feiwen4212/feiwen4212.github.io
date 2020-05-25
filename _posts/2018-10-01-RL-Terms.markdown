@@ -7,6 +7,26 @@ categories: notes
 
 <!-- <!DOCTYPE html> -->
 <html>
+<head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>**强化学习基础概念**</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+    <link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
+    <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+    </style>
+    <script type="text/javascript" async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+</head>
 <body>
     <h2 id="%e5%bc%ba%e5%8c%96%e5%ad%a6%e4%b9%a0%e5%9f%ba%e7%a1%80%e6%a6%82%e5%bf%b5"><strong>强化学习基础概念</strong></h2>
 <p>强化学习是agent和enviroment相互交互反馈的过程中的学习策略。于强化学习相似的两类学习方法监督学习和非监督学习，前者有专家事先打标目标位最优化标签匹配的目标函数，后者是在没有打标的数据中挖掘隐藏结构的学习策略。从这个角度看强化学习似乎更加类似非监督学习，因为强化学习是也是一类没有预先标签的学习方法，但强化学习的学习策略是优化目标函数儿非挖掘数据隐藏结构，从这来看强化学习于监督学习存在很多类同。</p>
