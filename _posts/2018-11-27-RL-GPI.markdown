@@ -5,6 +5,8 @@ date:   2018-11-27 21:21:22 +0500
 categories: notes
 ---
 
+回顾一下DP、MC、TD的一些差异，从GPI角度出发
+
 <html>
 
 <head>
@@ -16,8 +18,7 @@ categories: notes
 </head>
 
 <body>
-    <h2 id="%e8%b4%9d%e5%b0%94%e6%9b%bc%e6%96%b9%e7%a8%8b">贝尔曼方程</h2>
-<p>本篇回顾一下DP，MC，TD中的GPI过程中的区别。</p>
+<h2 id="%e8%b4%9d%e5%b0%94%e6%9b%bc%e6%96%b9%e7%a8%8b">GPI</h2>
 <h2 id="policy-prediciton"><strong>Policy Prediciton</strong></h2>
 <h3 id="dp%e7%9a%84v%e5%80%bc%e6%9b%b4%e6%96%b0">DP的V值更新</h3>
 <p><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>V</mi><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></msub><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo><mo>=</mo><munder><mo>∑</mo><mrow><mi>a</mi><mo>∈</mo><mi>A</mi></mrow></munder><mi>π</mi><mo stretchy="false">(</mo><mi>a</mi><mi mathvariant="normal">∣</mi><mi>s</mi><mo stretchy="false">)</mo><mo stretchy="false">[</mo><mi>r</mi><mo stretchy="false">(</mo><mi>s</mi><mo separator="true">,</mo><mi>a</mi><mo stretchy="false">)</mo><mo>+</mo><mi>γ</mi><munder><mo>∑</mo><mrow><msup><mi>s</mi><mo mathvariant="normal">′</mo></msup><mo>∈</mo><mi>S</mi></mrow></munder><mi>P</mi><mo stretchy="false">(</mo><msup><mi>s</mi><mo mathvariant="normal">′</mo></msup><mi mathvariant="normal">∣</mi><mi>s</mi><mo separator="true">,</mo><mi>a</mi><mo stretchy="false">)</mo><msub><mi>V</mi><mi>k</mi></msub><mo stretchy="false">(</mo><msup><mi>s</mi><mo mathvariant="normal">′</mo></msup><mo stretchy="false">)</mo><mo stretchy="false">]</mo></mrow><annotation encoding="application/x-tex">V_{k+1} (s) = \sum_{a \in A} \pi(a|s) [r(s, a) + \gamma \sum_{s&#x27; \in S}P(s&#x27;|s, a)V_k(s&#x27;)] 

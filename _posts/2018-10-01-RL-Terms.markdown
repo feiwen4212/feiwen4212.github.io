@@ -5,6 +5,8 @@ date:   2018-10-01 17:07:10 +0530
 categories: notes
 ---
 
+一些RL中常会用到的关键词
+
 <html>
 
 <head>

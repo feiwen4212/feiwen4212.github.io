@@ -5,6 +5,8 @@ date:   2018-10-26 20:11:32 +0010
 categories: notes
 ---
 
+MC算法学习笔记
+
 <html>
 
 <head>
